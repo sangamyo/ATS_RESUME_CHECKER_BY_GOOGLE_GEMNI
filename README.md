@@ -23,7 +23,6 @@ ATS Resume Checker is a tool designed to help job seekers optimize their resumes
 
    ```bash
    cd ATS_RESUME_CHECKER_BY_GOOGLE_GEMNI
-
    ```
 
 3. Install dependencies:
@@ -34,8 +33,10 @@ ATS Resume Checker is a tool designed to help job seekers optimize their resumes
 
 4. Set up Google Gemini API key:
 
+   Create a `.env` file in the project root directory and add the following line:
+
    ```bash
-   export GOOGLE_GEMINI_API_KEY='your_google_gemini_api_key'
+   GOOGLE_GEMINI_API_KEY='your_google_gemini_api_key'
    ```
 
 ## Usage
